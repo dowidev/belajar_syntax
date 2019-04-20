@@ -3,6 +3,8 @@ this is comment paragraph
 """
 from geometri.segitiga import luas
 from geometri.persegi_panjang import luas_pp
+from geometri_class.segitiga import Segitiga
+
 print(1 + 1)
 print('test hello')
 
@@ -27,5 +29,10 @@ print(luas('luas segitiga :', 3,6))
 '''Pembuatan module: PACKAGE'''
 
 print (luas_pp('luas persegi panjang:', 5, 6))
+
+'''Pembuatan module: class'''
+
+luas1 = Segitiga('Luasnya: ', 5, 6)
+print (luas1.title, luas1.luas_segitiga())
 
 
