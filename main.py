@@ -1,6 +1,8 @@
 """
 this is comment paragraph
 """
+from geometri.segitiga import luas
+from geometri.persegi_panjang import luas_pp
 print(1 + 1)
 print('test hello')
 
@@ -18,8 +20,12 @@ else:
 for i in range (0,10):
     print (i, i*luas_segitiga)
 
-def luas (detail, alas, tinggi):
-    print (detail)
-    return alas*tinggi/2
 
-print(luas('luas adalah', 3,6))
+
+print(luas('luas segitiga :', 3,6))
+
+'''Pembuatan module: PACKAGE'''
+
+print (luas_pp('luas persegi panjang:', 5, 6))
+
+
